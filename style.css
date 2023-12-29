@@ -11,7 +11,7 @@
     --Violet-blue: hsla(256, 72%, 46%, 1); /*circle*/
     --Persian-blue: hsla(241, 72%, 46%, 0); /*crcle*/
 
-    /* Neutral colours*/
+    /* Neutral colours */
     --White: hsl(0, 0%, 100%);
     --Pale-blue: hsl(221, 100%, 96%);
     --Light-lavender: hsl(241, 100%, 89%);
@@ -23,7 +23,6 @@ body {
     text-align: center;
     font-family: 'Hanken Grotesk', sans-serif;
     font-size: 18px;
-    
 }
 
 .container {
@@ -99,7 +98,6 @@ body {
 }
 
 .inner_container_right {
-    
     margin: 30px 40px;
     display: flex;
     flex-direction: column;
@@ -120,7 +118,7 @@ body {
 
 .marks_box {
     width: 250px;
-    height: 45px;
+    height: 50px;
     border-radius: 7px;
     display: flex;
     align-items: center;
@@ -174,13 +172,18 @@ body {
 
 button {
     width: 250px;
-    height: 40px;
+    height: 50px;
     border-style: none;
     border-radius: 25px;
     background-color: var(--Dark-gray-blue);
     color: var(--White);
-    font-weight: 600;
+    font-size: 1rem;
+    font-weight: 700;
     margin-top: 20px;
+}
+
+button:hover {
+    background: linear-gradient(to bottom,var(--Light-slate-blue), var(--Light-royal-blue));
 }
 
 .attribution {
@@ -199,23 +202,58 @@ button {
     .card {
         flex-direction: column;
         flex-basis: 100vw;
+        box-shadow: none;
     }
 
     .left_card {
-        border-radius: 0px 0px 20px 20px;
+        border-radius: 0px 0px 25px 25px;
+    }
+
+    .inner_container_left, .inner_container_right {
+        margin: 20px 25px;
+    }
+
+    .your_result {
+        font-size: 1.1rem;
+    }
+    
+    .circle {
+        width: 140px;
+        height: 140px;
+        margin: 20px 0px;
+    }
+    
+    .no_76 {
+        font-size: 3.5rem;
+    }
+    
+    .of_100 {
+        font-size: 1rem; 
+    }
+    
+    .great {
+        margin-bottom: 10px;
+        font-size: 1.5rem;
     }
 
     .description {
         width: 260px;
+        margin-bottom: 15px;
+    }
+
+    .summary {
+        font-size: 1.2rem;
+        margin-bottom: 20px;
     }
 
     .marks_box {
-        width: 300px;
-        height: 60px;
+        width: 295px;
+        height: 50px;
     }
 
     button {
-        width: 300px;
+        width: 295px;
         height: 50px;
+        margin-top: 10px;
     }
 }
