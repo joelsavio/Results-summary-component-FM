@@ -34,7 +34,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://joelsavio.github.io/Results-summary-component-FM/](https://joelsavio.github.io/Results-summary-component-FM/)
 
 ## My process
 
@@ -57,7 +57,7 @@ By doing this project, i learnt how to use CSS gradients, CSS variables and CSS 
 
 ### Useful resources
 
-- [w3school](https://www.w3schools.com/) - This website which helped me with 
+- [w3school](https://www.w3schools.com/) - This website helped me to learn about gradients, CSS variables, pseudo-classes and many more. 
 
 ## Author
 
